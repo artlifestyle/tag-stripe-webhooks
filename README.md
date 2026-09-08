@@ -47,3 +47,8 @@ Each Stripe subscription created via a payment link must include:
 
 Example:
 
+
+This allows the webhook to cancel subscriptions at the correct time.
+
+## Local Development
+
