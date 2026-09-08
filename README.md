@@ -47,8 +47,16 @@ Each Stripe subscription created via a payment link must include:
 
 Example:
 
+course_length_weeks: 6
 
 This allows the webhook to cancel subscriptions at the correct time.
 
 ## Local Development
+
+git clone https://github.com/artlifestyle/tag-stripe-webhooks.git
+cd tag-stripe-webhooks
+npm install
+npm start
+
+The server will run on port 3000.
 
